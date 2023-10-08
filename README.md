@@ -6,7 +6,7 @@ This is a demo project that demonstrates how can ESP32 act as an Internet Gatewa
 
 <br>
 
-The Arduino was coded in Go using TinyGo and ESP32 in C++
+The Arduino was coded in Go using TinyGo and ESP32 in C++ using the Arduino framework for ESP32 to abstract away the manufacturer's implementations.
 
 The ESP32 board acts as a Gateway for Arduino, ESP32 writes any incoming data from the Serial port to all connected WebSocket clients, and any data sent to the WebSocket Server that runs on ESP32 is written to ESP32's Serial, thus communication between two boards is established.
 ![image](https://github.com/roku-on-it/esp32-arduino-serial-comms/assets/46532725/3da71615-323a-4600-83e9-5bf0db3bce89)
