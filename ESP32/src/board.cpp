@@ -65,8 +65,8 @@ void Board::init()
 
     Serial.println("Connecting to WiFi...");
 
-    const char *ssid = "SUPERONLINE_Wi-Fi_0883";
-    const char *password = "2dhee92KeNCA";
+    const char *ssid = "ssid";
+    const char *password = "password";
     const char *ipAddr = connectToWifi(const_cast<char*>(ssid), const_cast<char*>(password));
 
     flickerLed(10);
